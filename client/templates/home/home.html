@@ -1,0 +1,33 @@
+<template name="home">
+  <div class="template-home">
+    <div class="row home-banner">
+      <div class="col s8 offset-s2 center">
+        <h4>MAKE THE WEB WORK FOR YOU</h4>
+        <h5>Intuitive Applications. Stunning Designs.<br>Personal Attention.</h5>
+        <button type="button" class="waves-effect waves-light btn-large z-depth-4"><a href="{{pathFor 'contact' }}" class="white-text">GET IN TOUCH</a></button>    
+      </div>
+    </div>
+    <div class="container">
+    	<h5>CURRENT PROJECTS</h5>
+    	<div class="row">
+    		<img src="projects/gcpmscreen.png" data-caption="greycellpm.meteor.com" class="materialboxed col s12 m4">
+    		<img src="projects/gcscreen.png" data-caption="greycellalt.meteor.com" class="materialboxed col s12 m4">
+    		<img src="projects/msconnectscreen.png" data-caption="connect.mainstreettazewell.com" class="materialboxed col s12 m4">
+    	</div>
+    </div>
+	<div class="row testimonial">
+            <i class="mdi-communication-call-merge center col s4 m2 offset-m1"></i>
+			<blockquote class="col s8 m8 flow-text">“Everyone wants their website to stand out. Chris’ creativity and know-how were essential in building us a beautiful site that was also extremely functional. We highly recommend using Christopher for all your web development needs!”<br><span>-Manny Elswick | Care Pastor, Main Street United Methodist Church</span></blockquote>
+            <div class="col s8 m2 offset-s2 offset-m3">
+                <h6 class="see-work"><a href="{{pathFor 'portfolio' }}" class="black-text"><i class="mdi-hardware-keyboard-arrow-right right small teal-text"></i>See My Work</a></h6>
+            </div>
+	</div>
+    <div class="row meteor-feature">
+        <div class="col s8 offset-s2 center">
+        <img src="images/meteor-logo.svg" class="responsive-img">
+        <p class="flow-text">Meteor is a game-changing JavaScript framework that dramatically improves the speed, quality and flexibility of building modern software applications.</p>
+        <button type="button" class="waves-effect white waves-orange btn-flat"><a href="/blog" class="black-text">WHY I LOVE METEOR</a></button>
+        </div>
+    </div>  
+  </div>
+</template>

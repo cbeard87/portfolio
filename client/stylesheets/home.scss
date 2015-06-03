@@ -1,0 +1,103 @@
+.home-banner {
+	background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('images/home.jpg');
+	background-size: cover;
+	background-position: top;
+	background-attachment: fixed;
+	padding-bottom: 6em;
+	-webkit-clip-path: polygon(0 0, 100% 0%, 100% 100%, 0 90%);
+	        clip-path: polygon(0 0, 100% 0%, 100% 100%, 0 90%);
+}
+
+div.center {
+	margin-top: 6em;
+	h4 {
+		color: #29ABE2;
+		text-transform: uppercase;
+		font-weight: 600;
+		text-align: center;
+	}
+	h5 {
+		color: #FFFFFF;
+		text-align: center;
+	}
+	button.btn-large {
+		background: #29ABE2;
+		margin-top: 1em;
+		&:hover {
+			background: teal;
+		}
+	}
+}
+
+div.testimonial {
+	background: #F9F9F9;
+	padding-bottom: 4em;
+	-webkit-clip-path: polygon(0 0, 100% 0%, 100% 100%, 0 80%);
+	        clip-path: polygon(0 0, 100% 0%, 100% 100%, 0 80%);
+}
+
+i.mdi-communication-call-merge {
+	font-size: 10em;
+	color: #222;
+}
+
+blockquote {
+	border-left-color: #29ABE2;
+}
+
+blockquote>span {
+	color: #AAAAAA;
+}
+
+h6.see-work {
+	text-transform: uppercase;
+	font-weight: bold;
+	i {
+		margin-right: 1.9em;
+	}
+}
+
+.meteor-feature {
+	padding-bottom: 6em;
+	margin-top: -6em;
+	margin-bottom: -6em;
+	background: url('images/stripe.png');
+	background-repeat: repeat;
+	background-position: fixed;
+	button.btn-flat {
+		border: 1px solid #222;
+	}
+}
+
+@media (max-width: 480px) {
+	img.materialboxed {
+		margin-bottom: 1em;
+	}
+
+	.home-banner {
+		padding-bottom: 3em;
+		background-size: contain;
+	}
+
+	div.center {
+		margin-top: 3em;
+		h4 {
+			text-align: justify;
+		}
+		h5 {
+			text-align: left;
+		}
+	}
+
+	div.testimonial {
+		padding-bottom: 6em;
+	}
+
+	i.mdi-communication-call-merge {
+		font-size: 8em;
+	}
+
+	.meteor-feature {
+		margin-bottom: -9em
+	}
+}

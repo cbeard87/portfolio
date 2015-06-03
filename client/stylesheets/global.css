@@ -1,0 +1,27 @@
+.loading {
+  padding-top: 100px;
+  color: #29ABE2;
+}
+
+nav {
+  margin-bottom: 0px;
+  background: #222;
+}
+
+.logo-img {
+	width: 48px;
+}
+
+ul.side-nav li a {
+  line-height: 1em;
+  padding: 24px;
+  display: block;
+}
+
+ul.side-nav li {
+  float: none;
+}
+
+div.mediumInsert-buttons {
+	color: #222 !important;
+}
